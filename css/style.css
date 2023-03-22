@@ -10,6 +10,7 @@
     max-width:100%;
     margin: 0 auto;
     overflow-x: hidden;
+    padding: 0 5%;
 }
 .banner img{
     width: 100%;
@@ -43,4 +44,27 @@ button:hover{
 .orange{
     background-color:  rgb(255, 116, 2);
 }
-
+.nav-mobile{
+     display: none;
+}
+nav .menu:hover .nav-mobile{
+    display: block;
+}
+nav .menu:hover {
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width:468px){
+    .nav-mobile ul li a{
+        font-size: 10px;
+    }
+}
+.flex-name , .flex-name .date , .flex-name .name{
+    font-size: 15px;
+}
+@media screen and (max-width:968px)
+{
+    .flex-name , .flex-name .date , .flex-name .name{
+        font-size: 10px;
+    }
+}
