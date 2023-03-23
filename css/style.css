@@ -68,3 +68,12 @@ nav .menu:hover {
         font-size: 10px;
     }
 }
+nav ul li:hover a{
+    color: orange;
+    transform: scale(1.2);
+}
+.text .line{
+    width: 30px;
+    height: 1px;
+    background-color: orange;
+}
