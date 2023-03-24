@@ -84,3 +84,6 @@ nav ul li:hover a{
     border-right: none;
     padding-bottom: 10px;
 }
+.block-scale:hover{
+    transform: scale(1.1);
+}
